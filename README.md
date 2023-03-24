@@ -4,7 +4,7 @@ This module provides a Python function that cleans a pandas DataFrame by automat
 ##Function: remove_columns_below_threshold
 This function takes a pandas DataFrame and a compliance threshold percentage as input arguments, removes the columns with missing values exceeding the threshold, and returns the cleaned DataFrame along with the details of removed columns.
 
-Parameters
+##Parameters
 df: pandas DataFrame
 The input DataFrame to clean.
 compliance_threshold: float
