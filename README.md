@@ -5,7 +5,9 @@ The user can specify the acceptable compliance percentage when calling the funct
 
 
 This example demonstrates how to use the remove_columns_below_threshold function with a pandas DataFrame and a compliance threshold percentage. The function returns the cleaned DataFrame, a list of removed columns, and a dictionary containing the missing data statistics for each removed column.
-``from missing_data_cleaner import remove_columns_below_threshold
+
+
+from missing_data_cleaner import remove_columns_below_threshold
 
 # Create a pandas DataFrame
 data = {
@@ -24,4 +26,4 @@ df_clean, removed_columns, missing_data = remove_columns_below_threshold(df, com
 # The cleaned DataFrame, removed columns, and missing data statistics are returned
 print(df_clean)
 print(removed_columns)
-print(missing_data)``
+print(missing_data)
